@@ -1,0 +1,9 @@
+body {
+   height: 150vh;
+   background-image: url(images.jpg) 
+}
+
+p {
+   border: 5px solid #fecdff;
+}
+   

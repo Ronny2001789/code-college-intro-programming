@@ -11,7 +11,7 @@ function moveUpDown(e) {
  function frame() {
  robotPart.style.top = top + '%';
  top++;
- if (top === 20){
+ if (top === 26){
  clearInterval(id);
  }
  }
@@ -20,15 +20,15 @@ function moveUpDown(e) {
 
 
 var leftEye = document.getElementById("lefteye");
-leftEye.addEventListener("click", moveUpDown);
-function moveUpDown(e) {
+leftEye.addEventListener("click", moveleftright);
+function moveleftright(e) {
  var robotPart = e.target;
  var top = 0;
  var id = setInterval(frame, 10) // draw every 10ms
  function frame() {
  robotPart.style.top = top + '%';
  top++;
- if (top === 20){
+ if (top === 26){
  clearInterval(id);
  }
  }
